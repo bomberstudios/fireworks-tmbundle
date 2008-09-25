@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Fireworks</string>
+	<key>ordering</key>
+	<array>
+		<string>FF8B85E8-554F-485D-BBF7-F81237919E9E</string>
+		<string>C46E717C-CB26-405C-AB5A-EC1D3F8F745C</string>
+		<string>C0EE6079-31F6-48D9-A6B0-0957CEB5D265</string>
+		<string>7B178C29-650F-4340-A97D-A135005A09B9</string>
+		<string>BA10969E-F06A-4BAC-90F5-31D517A9A087</string>
+		<string>66013E60-E9A6-48E4-9C59-6ACA1B10E662</string>
+		<string>573DB6E7-802E-431F-98DF-A70C6CA2BAC8</string>
+	</array>
+	<key>uuid</key>
+	<string>F1FCB760-7A5C-40D7-BB74-BF09E9823F71</string>
+</dict>
+</plist>

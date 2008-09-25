@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>open -g "$TM_FILEPATH" -a "Adobe Fireworks CS3.app"</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@r</string>
+	<key>name</key>
+	<string>Run in CS3</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>source.js.fireworks</string>
+	<key>uuid</key>
+	<string>7B178C29-650F-4340-A97D-A135005A09B9</string>
+</dict>
+</plist>

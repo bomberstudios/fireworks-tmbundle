@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/*
+1
+${1:Fireworks Object},${2:Property},${3:Label in Panel},${4:Default Value};
+*/
+
+function setDefaultValues()
+{
+    var values = new Array();
+
+    values.push({ name:"$3", type:"text", value:"$4" });
+
+    Widget.elem.customData["currentValues"] = values;
+}
+
+function applyCurrentValues()
+{
+    var values = Widget.elem.customData["currentValues"];
+
+    Widget.GetObjectByName("$1").$2 = values[0].value;
+}
+
+switch (Widget.opCode)
+{
+    case 1: setDefaultValues();   break;
+    case 2: applyCurrentValues(); break;
+}</string>
+	<key>name</key>
+	<string>New Document</string>
+	<key>scope</key>
+	<string>source.js.fireworks</string>
+	<key>tabTrigger</key>
+	<string>jsf</string>
+	<key>uuid</key>
+	<string>C0EE6079-31F6-48D9-A6B0-0957CEB5D265</string>
+</dict>
+</plist>

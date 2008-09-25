@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>doc = fw.getDocumentDOM();</string>
+	<key>name</key>
+	<string>doc</string>
+	<key>scope</key>
+	<string>source.js.fireworks</string>
+	<key>tabTrigger</key>
+	<string>doc</string>
+	<key>uuid</key>
+	<string>66013E60-E9A6-48E4-9C59-6ACA1B10E662</string>
+</dict>
+</plist>

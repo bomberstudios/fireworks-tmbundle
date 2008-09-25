@@ -1,0 +1,33 @@
+//
+//  ${TM_NEW_FILE_BASENAME}
+//
+//  Created by ${TM_FULLNAME} on ${TM_DATE}.
+//  Copyright (c) ${TM_YEAR} ${TM_ORGANIZATION_NAME}. All rights reserved.
+//
+
+/*
+1
+label,textChars,Etiqueta,Label;
+*/
+
+function setDefaultValues()
+{
+    var values = new Array();
+
+    values.push({ name:"Etiqueta", type:"text", value:"Label" });
+
+    Widget.elem.customData["currentValues"] = values;
+}
+
+function applyCurrentValues()
+{
+    var values = Widget.elem.customData["currentValues"];
+
+    Widget.GetObjectByName("label").textChars = values[0].value;
+}
+
+switch (Widget.opCode)
+{
+    case 1: setDefaultValues();   break;
+    case 2: applyCurrentValues(); break;
+}
