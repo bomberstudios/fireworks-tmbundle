@@ -2,6 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>7B178C29-650F-4340-A97D-A135005A09B9</string>
+			<string>BA10969E-F06A-4BAC-90F5-31D517A9A087</string>
+			<string>------------------------------------</string>
+			<string>C0EE6079-31F6-48D9-A6B0-0957CEB5D265</string>
+			<string>66013E60-E9A6-48E4-9C59-6ACA1B10E662</string>
+			<string>573DB6E7-802E-431F-98DF-A70C6CA2BAC8</string>
+			<string>------------------------------------</string>
+			<string>706CEE73-DFE5-449B-879D-76CE3077AF84</string>
+		</array>
+		<key>submenus</key>
+		<dict/>
+	</dict>
 	<key>name</key>
 	<string>Fireworks</string>
 	<key>ordering</key>

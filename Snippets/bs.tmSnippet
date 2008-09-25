@@ -10,7 +10,7 @@
 };
 </string>
 	<key>name</key>
-	<string>bs</string>
+	<string>Load BS Library</string>
 	<key>scope</key>
 	<string>source.js.fireworks</string>
 	<key>tabTrigger</key>
