@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>try {
+  $1;
+} catch (exception) {
+  alert([exception, exception.lineNumber, exception.fileName].join("\n"));
+}</string>
+	<key>name</key>
+	<string>try</string>
+	<key>scope</key>
+	<string>source.js.fireworks</string>
+	<key>tabTrigger</key>
+	<string>try</string>
+	<key>uuid</key>
+	<string>B58C1C75-8AB9-47F7-9948-19A859A782E7</string>
+</dict>
+</plist>
