@@ -5,7 +5,7 @@
 	<key>beforeRunningCommand</key>
 	<string>saveActiveFile</string>
 	<key>command</key>
-	<string>open -g "$TM_FILEPATH" -a "Adobe Fireworks CS4.app"</string>
+	<string>open "$TM_FILEPATH" -a "Adobe Fireworks CS4.app"</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
